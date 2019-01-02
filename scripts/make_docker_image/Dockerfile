@@ -1,4 +1,4 @@
-FROM swr.cn-north-1.myhuaweicloud.com/servicestage/openjdk:8-jre-alpine
+FROM openjdk:8u181-jdk-alpine
 
 RUN mkdir -p /maven/acmeair/
 
